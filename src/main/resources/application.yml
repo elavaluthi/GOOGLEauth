@@ -1,0 +1,25 @@
+#google
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration: 
+          google: 
+            client-id: 615368764154-ujjlb22qgncjvlhpmhgcrir9kosms6qv.apps.googleusercontent.com
+            client-secret: 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
+
+            
+            
+#mongodB
+
+  data:
+    mongodb:
+      database: User
+      host: localhost
+      port: 27017
+      
+      
+      
+server:
+  port: 9090
